@@ -27,10 +27,11 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 10px 50px;
     align-items: center;
     position: fixed;
     z-index: 999;
+    background-color: #a8afb4;
 }
 .logoimage{
     position: relative;
