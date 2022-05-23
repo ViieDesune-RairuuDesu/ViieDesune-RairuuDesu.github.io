@@ -82,6 +82,7 @@ body{
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
+    animation: transitionIn 1.25s;
 }
 .content h1{
     font-size: 50px;
@@ -122,4 +123,13 @@ span{
 }
 button:hover span{
     width: 100%;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
